@@ -1,0 +1,25 @@
+div.bottomPagination {
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.bottomPagination button {
+    padding: 12px 20px;
+    margin: 0 5px;
+    border: 1px solid #b4b4b4;
+    background-color: white;
+    color:#b4b4b4;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+div.bottomPagination button:hover{
+    background-color: #b4b4b4;
+    color:white;
+}
+
+div.bottomPagination .turnRight {
+    rotate: 180deg;
+}

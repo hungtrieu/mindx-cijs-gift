@@ -1,0 +1,9 @@
+div.giftItem div.information {
+    display: flex;
+    justify-content: space-between;
+}
+
+div.giftItem div.price {
+    display: flex;
+    justify-content: space-between;
+}

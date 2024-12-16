@@ -1,0 +1,104 @@
+div.modal {
+    /* display: none; */
+     /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  div.modal div.modalContent {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+
+  div.modal div.modalContent div.row{
+    display: flex;
+    gap: 32px;
+  }
+
+  div.modal div.modalContent div.row.control{
+    justify-content: flex-end;
+  }
+
+  div.modal div.modalContent div.image img {
+    width: 350px;
+  }
+  
+  /* The Close Button */
+  div.modal span.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  div.modal span.close:hover,
+  div.modal span.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  div.modalContent div.information .irow {
+    margin-bottom: 34px;
+  }
+
+  div.modalContent div.information h2.name {
+    font-size: 28px;
+    font-weight: normal;
+  }
+  div.information div.classified div.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  div.information div.classified div.buttons button{
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid #cdcdcd;
+  }
+
+  div.information div.addToCart {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  div.information div.addToCart div.amount button{
+    background-color: #FF4D00;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: 1px solid #cdcdcd;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  div.information div.addToCart div.amount input {
+    width: 40px;
+    text-align: center;
+    border: none;
+  }
+
+  div.information div.addToCart button.buy{
+    background-color: #FF4D00;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: 1px solid #cdcdcd;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+  }
+
+  div.modalContent div.description {
+    margin: 46px 0;
+  }

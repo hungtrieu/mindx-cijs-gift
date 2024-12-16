@@ -1,0 +1,6 @@
+div.createGift div.form-group {
+    margin-bottom: 20px;
+}
+div.createGift div.form-group label{
+    display: block;
+}

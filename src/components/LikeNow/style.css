@@ -1,0 +1,20 @@
+div.likeNow {
+    width: 633px;
+}
+
+div.likeNow h1 {
+    color: #E6656E;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+div.likeNow div.description {
+    margin-top: 56px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+div.likeNow div.description p {
+    font-size: 24px;
+}
